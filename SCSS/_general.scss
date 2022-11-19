@@ -1,0 +1,14 @@
+Html{
+    font-size: 50%;
+
+    body{
+        background: linear-gradient( rgba(5,7,12,0.70),rgba(5,7,12,0.70)),url(/img/fondo.png)no-repeat;
+        background-size:cover;
+        color: $color-octavo;
+        font-family: 'Bad Script', cursiva;
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+
+    }
+}
