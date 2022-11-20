@@ -1,0 +1,40 @@
+#sobremi{
+
+    max-width: 90.75rem;
+    margin: auto;
+    padding: 6.25rem;
+    color: $color-primero;
+    display: flex;
+
+    p{
+
+        font-size: 2.5rem;
+        display: block;
+        text-align: center;
+        margin: 1rem;
+        margin-left: 19rem;
+        transition: all 300ms;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.1,1.1);
+            color: $color-octavo;
+        }
+    }
+
+    .foto{
+        max-width:37.5rem;
+        margin-right: 6.25;
+
+        img{
+            padding: 1.25rem;
+            margin-left: -35rem;
+            width: 40rem;
+            border-radius: 2rem;
+            background-color: $color-septimo;
+
+                } 
+
+            
+    }
+}
+

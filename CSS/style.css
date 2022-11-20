@@ -203,4 +203,67 @@ p {
   letter-spacing: 14px;
 }
 
+#footer {
+  width: 100%;
+  height: 30rem;
+  background: gold;
+  color: white;
+  overflow: hidden;
+}
+#footer .wrap div {
+  float: left;
+  width: 20rem;
+  height: 25rem;
+  margin: 3rem;
+  text-align: center;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+#pie-pagina {
+  font-size: 3rem;
+  text-align: center;
+}
+#pie-pagina p {
+  font-size: 3rem;
+}
+
+#buscador .buscador {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
+
+#sobremi {
+  max-width: 90.75rem;
+  margin: auto;
+  padding: 6.25rem;
+  color: black;
+  display: flex;
+}
+#sobremi p {
+  font-size: 2.5rem;
+  display: block;
+  text-align: center;
+  margin: 1rem;
+  margin-left: 19rem;
+  transition: all 300ms;
+  cursor: pointer;
+}
+#sobremi p:hover {
+  transform: scale(1.1, 1.1);
+  color: #fff;
+}
+#sobremi .foto {
+  max-width: 37.5rem;
+  margin-right: 6.25;
+}
+#sobremi .foto img {
+  padding: 1.25rem;
+  margin-left: -35rem;
+  width: 40rem;
+  border-radius: 2rem;
+  background-color: rgba(204, 204, 204, 0.8);
+}
+
 /*# sourceMappingURL=style.css.map */
