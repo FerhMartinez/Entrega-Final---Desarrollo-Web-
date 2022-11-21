@@ -249,4 +249,9 @@ p {
   background-color: rgba(204, 204, 204, 0.8);
 }
 
+.form-float {
+  display: block;
+  padding-left: 70.25rem;
+}
+
 /*# sourceMappingURL=style.css.map */
