@@ -218,7 +218,7 @@ p {
 }
 
 #sobremi {
-  max-width: 90.75rem;
+  max-width: 44.75rem;
   margin: auto;
   padding: 6.25rem;
   color: black;
@@ -229,29 +229,29 @@ p {
   display: block;
   text-align: center;
   margin: 1rem;
-  margin-left: 19rem;
+  margin-left: 13rem;
   transition: all 300ms;
   cursor: pointer;
 }
 #sobremi p:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1, 1);
   color: #fff;
 }
 #sobremi .foto {
-  max-width: 37.5rem;
+  max-width: 58.5rem;
   margin-right: 6.25;
 }
 #sobremi .foto img {
   padding: 1.25rem;
-  margin-left: -35rem;
+  margin-left: 113rem;
   width: 40rem;
   border-radius: 2rem;
   background-color: rgba(204, 204, 204, 0.8);
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1300px) {
   #sobremi p {
-    margin-left: -6rem;
+    margin-left: -87rem;
     margin-top: -1rem;
   }
   #mi {
@@ -260,43 +260,35 @@ p {
     justify-content: center;
   }
   #sobremi .foto img {
-    width: 100%;
-    margin-left: 89rem;
+    width: 54%;
+    margin-left: 65rem;
   }
   .foto {
     column-width: auto;
   }
 }
-@media (max-width: 1036px) {
-  #sobremi p {
-    margin-left: -6rem;
-    margin-top: -1rem;
+@media (max-width: 1296px) {
+  #sobremi .foto {
+    visibility: hidden;
+  }
+  #sobremi P {
+    margin-left: 0rem;
   }
 }
-@media (max-width: 900px) {
-  #sobremi p {
-    margin-left: -6rem;
-    margin-top: -1rem;
+@media (max-width: 1144px) {
+  #sobremi img {
+    display: none;
   }
-}
-#sobremi p {
-  margin-left: -12rem;
-  margin-top: 0rem;
-}
-
-#sobremi {
-  padding-top: 23rem;
-  border-top: 45px;
-  margin-bottom: -7.5rem;
-  margin-left: -23rem;
-  padding-left: -14rem;
-}
-
-@media (max-width: 890px) {
-  #sobremi .foto img {
-    width: 100%;
+  #sobremi img p {
+    margin-left: 45rem;
+    margin-top: 0rem;
+  }
+  #sobremi img p #sobremi p {
+    margin-left: 80rem;
+    margin-top: 0rem;
+  }
+  #sobremi img p #sobremi p p {
     margin-left: 32rem;
-    opacity: 0;
   }
 }
 .form-float {
